@@ -1,43 +1,42 @@
-import express from "express"; // Importa o framework Express para criar a aplicação web
-import multer from "multer"; // Importa o Multer para lidar com uploads de arquivos
-import { listarPosts, postarNovoPost, uploadImagem, atualizarNovoPost } from "../controllers/postsController.js"; // Importa as funções controladoras para lidar com a lógica dos posts
+import express from "express"; // Importa o módulo Express para criar o servidor web
+import multer from "multer"; // Importa o módulo Multer para lidar com uploads de arquivos
+// Importa as funções controladoras dos posts
+import { listarPosts, postarNovoPost, uploadImagem, atualizarNovoPost } from "../controllers/postsController.js";
 import cors from "cors";
-
 const corsOptions = {
-  origin: "http://localhost:8000",
-  optionsSuccessStatus: 200
+    origin: "http://localhost:8000", 
+    optionsSuccessStatus: 200
 }
 
-// Configura o armazenamento do Multer para uploads de imagens
 const storage = multer.diskStorage({
-  destination: function (req, file, cb) {
-    // Especifica o diretório para armazenar as imagens enviadas
-    cb(null, 'uploads/'); // Substitua por seu caminho de upload desejado
-  },
-  filename: function (req, file, cb) {
-    // Mantém o nome original do arquivo por simplicidade
-    cb(null, file.originalname); // Considere usar uma estratégia de geração de nomes únicos para produção
-  }
-});
+    // Define o diretório de destino para os arquivos enviados
+    destination: function (req, file, cb) {
+        cb(null, 'uploads/');
+    },
+    // Define o nome do arquivo salvo (mantém o nome original)
+    filename: function (req, file, cb) {
+        cb(null, file.originalname);
+    }
+})
 
-// Cria uma instância do middleware Multer
-const upload = multer({ storage: storage });
+// Cria uma instância do middleware Multer com a configuração de armazenamento
+const upload = multer({ dest: "./uploads", storage })
 
-// Define as rotas usando o objeto Express app
 const routes = (app) => {
-  // Permite que o servidor interprete corpos de requisições no formato JSON
-  app.use(express.json());
-  app.use(cors(corsOptions))
-  // Rota para recuperar uma lista de todos os posts
-  app.get("/posts", listarPosts); // Chama a função controladora apropriada
+    // Habilita o middleware para analisar corpos de requisições JSON (padrão para rotas REST)
+    app.use(express.json());
+    app.use(cors(corsOptions));
 
-  // Rota para criar um novo post
-  app.post("/posts", postarNovoPost); // Chama a função controladora para criação de posts
+    // Rota GET para listar todos os posts (provavelmente chama a função listarPosts no controller)
+    app.get("/posts", listarPosts);
 
-  // Rota para upload de imagens (assumindo uma única imagem chamada "imagem")
-  app.post("/upload", upload.single("imagem"), uploadImagem); // Chama a função controladora para processamento da imagem`
+    // Rota POST para criar um novo post (provavelmente chama a função postarNovoPost no controller)
+    app.post("/posts", postarNovoPost)
 
-  app.put("/upload/:id", atualizarNovoPost)
-};
+    // Rota POST para upload de imagem (usa o middleware Multer e chama a função uploadImagem no controller)
+    app.post("/upload", upload.single("imagem"), uploadImagem)
 
-export default routes;
+    app.put("/upload/:id", atualizarNovoPost);
+}
+
+export default routes; // Exporta a função routes para ser utilizada no arquivo principal
