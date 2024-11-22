@@ -1,0 +1,17 @@
+-O Html geralmente é estático.
+-arquivo json
+------------------------------
+O NPM é um gerenciador de muitas coisas que auxiliam o node e vários comandos que são dados ao terminal.
+Acessa uma série de ferramentas que são ligadas ao node.
+
+npm init es6 -y = comando básico para começar o node. Pois irá gerar o arquivo package.json
+
+nesse caso por enquanto, o projeto sabe que é para trabalhar com node e tudo que é externo ao projeto tem que aparecer no arquivo package.json. Qualquer coisa que eu coloque nesse projeto irá ficar descrito ali.
+--------------------------------------------------------------------------------------------------------------------------
+npm i express = pedindo para o gerenciador de pacotes instalar uma dependencia que se chama express
+---------------------------------------------------------------------------------------------------
+requisição e resposta = o significado é literal
+------------------------------------------------
+http://localhost:3000/api acessando o servidor local com a porta e rota da primeira aula
+----------------------------------------------------------------------------------------
+gitignore = quando for subir projeto para o git será ignorado o que estiver dentro desse documento.

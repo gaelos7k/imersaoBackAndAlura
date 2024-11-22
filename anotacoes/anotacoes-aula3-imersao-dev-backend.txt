@@ -1,0 +1,24 @@
+data base é como se fosse o armario
+e as coleções são as gavetas onde guardo os objetos que quero utilizar.
+
+Nomemclatura dentro da programação é extremamente importante para a organização do código.
+
+Texto alternativo da imagem = para pessoas que usam leitores de tela, acessibilidade(alt)
+
+string de conexão é a conexão entre meu código e o banco de dados, todas as informações de conexão estão lá e esse tipo de informação não pode ficar público. Vamos usar váriaveis de ambiente para guardar essa chave de api de forma segura.
+
+.env é o arquivo basico/padrao onde a gente cria esse tipo de variavel porque ela existe só dentro do nosso ambiente. O padrão desse variável é tudo MAIUSCULO_SEPARADO_POR_ANDERLINE
+
+lembrando que a a pasta .gitignore carrega o nome dos arquivos separados por linha que eu não quero que suba para o git/github(rsrs). O arquvi não será commitado.
+
+src(source(codido fonte)) = nome padrao.
+
+tudo que a gente usa que não é do nosso código a gente tem que entender como funciona/utilizar os recursos, tudo isso é da documentação do driver/framework/biblioteca/banco-de-dados. O driver do mongo tem alguma funções especificas que a gente tem que utilizar. 
+
+.toArray = converte para array
+
+lembrar scripts de npm run dev para executar pedidos no terminal de forma mais simples.
+
+Organizar o projeto, para que depois fique mais fácil de colocar novas funcionalidades. Número de linhas é um problema grave, por isso é possível fazer uma estrutura de pastas, de forma simples e direta para organização do projeto que é fundamental e maduro no desenvolvimento de software. Não se trata apenas da funcionalidade do código mas que ele seja também sustentável.
+
+Separamos a nossa lógica em 3 responsabildiades: postsRoutes, postsControllers, postModel, importamos e exportamos funções de um lado para o outro.

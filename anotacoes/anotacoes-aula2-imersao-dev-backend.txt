@@ -1,0 +1,52 @@
+localhost:3000 = url base
+
+http > código numérico associado a texto
+status(200) é o código que significa OK
+
+http.cat = uma forma de mostrar todos os status possíveis numa forma de comunicação http.
+
+faixa dos 100 = continue
+faixa dos 200 = sucesso
+faixa dos 300 = redirecionamentos
+faixa dos 400 = erros da faixa do cliente
+faixa dos 500 = erros da faixa do servidor
+
+convenção de que tudo que der ok será usado o 200
+-------------------------------------------------
+Precisamos ter uma base de dados, algum lugar que podemos puxar esses dados que queremos devolver.
+
+ARRAY é uma estrutura, que permite guardar um monte de dados de uma vez só e em um lugar só. Vamos criar uma estrutura que depois podemos consultar.
+
+sempre que abrir e fechar [] significa que teremos uma lista de algum tipo de dados. strings, números etc...
+
+como cria grupos de informação ? entre chaves {} dentro dos colchetes []. a cada informação é necessário a , 
+
+toda vez que precisar de um placeholder pode colocar o link = https://placecats.com/millie/300/150 
+
+imagens prontas usadas para fazer testes enquanto ainda não tem nada. 
+
+objetos = conjuntos de chave e valores.
+cada objeto será um item da lista.
+
+Mocks, ou objetos simulados, são ferramentas poderosas utilizadas em testes de software.
+
+vamos fazer uma rota para devolver dados de todos esses objetos.
+
+os dados só conseguem trafegar como textos, textos vão textos voltam.
+
+precisamos adicionar uma rota que foi a .json
+
+estamos criando uma api. foi preciso criar uma interface, para interfaciar.
+
+As aplicações usam arquitetura de cliente-servidor.
+no backend nosso objetivo é o servidor.
+
+node --watch server.js = RESTART NO SERVIDOR.
+
+id é o nome padrão para identificador.
+
+BUSCA DE DADOS DENTRO DE UMA ESTRUTURA É ALGO DO DIA A DIA DO PROGRAMADOR.
+
+mongodb é um tipo de banco de objetos, é um dos bancos mais utilizados em desenvolvimento back end, vamos usar esse banco de dados na nuvem.
+
+ 

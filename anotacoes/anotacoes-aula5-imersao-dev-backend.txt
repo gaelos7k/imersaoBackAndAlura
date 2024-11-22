@@ -1,0 +1,20 @@
+Multer - um dos amigos do node.js, ele cuida do gereenciamento de pastas no nosso computador
+
+midleware = um programa que vai no meio de uma determinada execução 
+
+no postmam o formato que o multer especifica para fazer um post é o form-data
+
+`` = template string que são 2 acentos agudos para juntar string com váriavel(concatenação)
+
+fs é uma biblioteca nativa do node ela permite que nossa api consiga conversar com nosso computador servidor.
+
+^^^^^^^^^ ANOTACOES DA METADE DA AULA 4 PARA FRENTE ^^^^^^^^^^^^^^^^
+---------------------------------------------------------------------
+ANOTACOES DA AULA 5:
+
+app.use(express.static("uploads")) - pedindo para o express sevir arquivos estaticos.
+
+quando voce copia e cola um trecho de código e não sabe o que o código faz, não é muito interessante
+
+
+

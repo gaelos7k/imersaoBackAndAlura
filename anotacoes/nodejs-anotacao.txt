@@ -1,0 +1,8 @@
+-O navegador é o ambiente de execução do javascript.
+-Foco principal do node.js é o desenvolvimento backend
+-Node.js permite que escrevemos códigos em javascript que rodem foram do ambiente do navegador.
+-O package.json é o projeto coração de qualquer projeto que use node, é o primeiro arquivo que você vai clicar para ver, pois guarda muita informação. Ele guarda a lista de dependecias, que são todos os pacotes externos que etão sendo usados no projeto, todas as bibliotecas, todos os frameworks. 1 projeto é formado por várias dependencias. 
+-NPM/YARN são repositórios/gerenciadores de pacotes do node.js
+-A pasta node_modules é onde ficam instalados todos os pacotes de códigos externos.
+-O código npm install express, que instala um dos framework mais utilizados (express) é muito utilizado para criação de api para aplicações web com javascript.
+-Dentro da pasta node_modules ficam todos os arquivos para que as dependencias funcionem.

@@ -1,0 +1,50 @@
+- https://www.alura.com.br/artigos/rest-conceito-e-fundamentos
+	*(OK) REST é como um protocolo de comunicação na internet que permite que diferentes programas se entendam e troquem informações de forma organizada e eficiente.
+
+- https://www.alura.com.br/artigos/entenda-diferenca-entre-var-let-e-const-no-javascript
+	*var: Evite usar em código moderno, pois pode levar a problemas de escopo.
+	let: Use para variáveis que podem mudar de valor dentro de um bloco.
+	const: Use para valores que nunca devem mudar.
+
+- https://www.alura.com.br/artigos/api
+	*As APIs são ferramentas que permitem que diferentes programas "conversem" entre si, tornando o desenvolvimento de software mais fácil, rápido e eficiente.
+
+- https://www.alura.com.br/artigos/estrutura-url
+	*A URL é o endereço da sua página na internet. Ela é como um guia que ajuda você e os computadores a encontrar as informações que você procura. Ao entender a estrutura da URL, você pode criar sites mais eficientes e fáceis de usar.
+
+- https://www.alura.com.br/artigos/http
+	*O HTTP é o protocolo que permite que os computadores se comuniquem e troquem informações na internet. É como a língua que todos os dispositivos conectados à internet falam.
+
+- https://expressjs.com/en/starter/hello-world.html
+	*Esse código é um exemplo básico de como criar uma aplicação web simples. Ele mostra como iniciar um servidor, definir uma rota e responder a requisições. É um bom ponto de partida para aprender a construir aplicações web com Node.js e Express.js.
+
+- https://www.alura.com.br/artigos/portas-logicas-tipos-caracteristicas
+
+- https://www.alura.com.br/artigos/javascript-para-que-serve-array
+
+- https://www.alura.com.br/artigos/o-que-e-json
+
+- https://www.alura.com.br/artigos/json-e-objeto-javascript-sao-a-mesma-coisa
+
+-https://www.alura.com.br/artigos/cloud
+
+-https://www.alura.com.br/artigos/async-await-no-javascript-o-que-e-e-quando-usar
+
+-https://www.alura.com.br/artigos/mongodb-o-banco-baseado-em-documentos
+
+-https://www.npmjs.com/package/multer
+
+-https://www.alura.com.br/artigos/o-que-sao-regras-de-negocio
+
+-https://www.alura.com.br/artigos/async-await-no-javascript-o-que-e-e-quando-usar
+
+-https://www.mongodb.com/pt-br/docs/drivers/node/current/usage-examples/insert-operations/
+
+-https://www.mongodb.com/pt-br/docs/drivers/node/current/usage-examples/update-and-replace-operations/
+
+-https://www.alura.com.br/artigos/o-que-e-git-github
+
+-https://www.alura.com.br/artigos/escrever-bom-readme
+
+-https://www.alura.com.br/artigos/como-resolver-erro-de-cross-origin-resource-sharing
+

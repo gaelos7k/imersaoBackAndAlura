@@ -1,0 +1,34 @@
+A pasta controller é a "cola" dos arquivos.
+
+Verbos http = são 4 verbos principais = criar(post), ler/pegar(get), deletar(delete) e atualizar(put).
+
+Parametros que vão dentro dos parenteses.
+
+req.body = req de requisição e body(corpo) toda requisição que um computador cliente faz a um computador servidor, toda requisição tem um cabeçalho, que vai todas as informações da requisição(tipo, para onde é). Quando quer enviar dados, isso vai no corpo da requisição(que é o corpo). 
+
+Bloco de código try = tenta realizar algo. 
+
+await = tem que esperar acontecer a operação.
+
+Bloco de código catch = pegou o erro? é dele que a gente vai tratar, se assemelha ao if/else.
+
+try{
+xxxxxxxxx
+} catch(xxxx){
+xxxxxxxxx
+}
+
+console.error(erro.message) todo objeto de erro tem uma propriedade de erro, onde tem uma mensagem pré-definida, onde recebemos a mensagem que precisamos. 
+
+Atentar na maturidade de desenvolvimento do software, não precisamos dar tanto detalhes dos erros para o usuário. SEGURANÇA DE DADOS!
+
+o export.default é quando temos apenas uma função para exportar
+
+insertOne é da documentação do mongo pois quem define a função que chamamos e com quais parametros é a biblioteca que estamos utilizando.
+
+lembrar das diferenças de terminais, o npm run dev não roda no powershel, apenas no command prompt.
+
+
+ACONTECEU ERROS QUE NÂO CONSEGUI SOLUCIONAR NEM COM A AJUDA DA COMUNIDADE NO DISCORD, POIS NÃO OBTIVE REPOSTA.
+BAIXEI O REPOSITORIO DA AULA 4 NO GITHUB :(
+
