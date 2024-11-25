@@ -48,3 +48,5 @@
 
 -https://www.alura.com.br/artigos/como-resolver-erro-de-cross-origin-resource-sharing
 
+-https://cloud.google.com/docs?hl=pt-br
+
